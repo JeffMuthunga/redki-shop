@@ -49,6 +49,7 @@ export default async function RootLayout({
     <html
       lang={htmlLang}
       className=""
+      suppressHydrationWarning
     >
       <Head>
         <link
